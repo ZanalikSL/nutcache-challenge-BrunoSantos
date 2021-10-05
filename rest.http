@@ -1,0 +1,42 @@
+POST https://crudcrud.com/api/a5c7e2c77c6748d2b6bcb980006eaef3/nutemployee HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Alcione2",
+    "birth-date": "10/01/1995",
+    "gender": "male",
+    "email": "bls@gmail.com",
+    "cpf": "107.887.054-60",
+    "start-date": "25/07/2011",
+    "team": "mobile"
+}
+
+###
+
+GET https://crudcrud.com/api/a5c7e2c77c6748d2b6bcb980006eaef3/nutemployee HTTP/1.1
+content-type: application/json
+
+###
+
+GET https://crudcrud.com/api/a5c7e2c77c6748d2b6bcb980006eaef3/nutemployee/614df2dedc46c203e8b3dea0 HTTP/1.1
+content-type: application/json
+
+###
+
+PUT  https://crudcrud.com/api/a5c7e2c77c6748d2b6bcb980006eaef3/nutemployee/614df2dedc46c203e8b3dea0 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "AlcioneTEste",
+    "birth-date": "10/01/1995",
+    "gender": "male",
+    "email": "bls@gmail.com",
+    "cpf": "107.887.054-60",
+    "start-date": "25/07/2011",
+    "team": "mobile"
+}
+
+###
+
+DELETE https://crudcrud.com/api/a5c7e2c77c6748d2b6bcb980006eaef3/nutemployee/614df2dedc46c203e8b3dea0 HTTP/1.1
+content-type: application/json
