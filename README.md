@@ -35,6 +35,11 @@ $ git clone https://github.com/ZanalikSL/nutcache-challenge-BrunoSantos.git
 $ cd nutcache-challenge-BrunoSantos
 ```
 
+IMPORTANT
+
+I used an .env file at the root of the project to make the API calls. 
+After installation, create this file, go to the [CrudCrud](https://crudcrud.com/) website and get a Token to generate a new endpoint for you.
+
 ## Use
 
 ```bash
@@ -43,6 +48,7 @@ $ npm i
 
 # Start the project
 $ npm start
+
 ```
 
 ## Create production builds
